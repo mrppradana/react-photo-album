@@ -17,6 +17,7 @@ useEffect(() => {
 );
 
     return (
+      <>
       <div>
         <h2>Daftar User</h2>
         <table>
@@ -42,6 +43,7 @@ useEffect(() => {
           </tbody>
         </table>
       </div>
+    </>
     );
 
 export default User;

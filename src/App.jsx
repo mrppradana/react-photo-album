@@ -1,9 +1,11 @@
-import Sidebar from "./components/sidebar"
+import ImageGalery from "./components/imageExplore"
+import Navigationbar from "./components/Navbar"
 
 function App() {
   return (
     <>
-    <Sidebar />
+    <Navigationbar />
+    <ImageGalery />
     </>
   )
 }

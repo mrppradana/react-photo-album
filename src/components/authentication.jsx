@@ -18,6 +18,7 @@ function handleSubmit(event) {
 }
 
 return (
+  <>
   <div>
     <form onSubmit={handleSubmit}>
       <div>
@@ -31,6 +32,7 @@ return (
       <button type="submit">Submit</button>
     </form>
   </div>
+  </>
 );
 
 export default Authentication;
