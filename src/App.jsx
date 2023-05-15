@@ -1,11 +1,11 @@
-import ImageGalery from "./components/imageExplore"
-import Navigationbar from "./components/Navbar"
+import React from "react"
+import LoginPage from "./components/loginPage"
+
 
 function App() {
   return (
     <>
-    <Navigationbar />
-    <ImageGalery />
+    <LoginPage/>
     </>
   )
 }
